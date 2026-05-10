@@ -30,7 +30,7 @@ public class MainApp extends Application {
         public int exitHabitacionId;
 
         public GameContext() {
-            this.jugador = new Jugador(100, 20, 10, 3, 0, 0);
+            this.jugador = new Jugador(100, 20, 10, 1, 0, 0);
             this.jugador.setHabitacionId(0);
             
             int numRooms = 5;
